@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(new1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: serif;
+}
+
+#log{
+    background: rgba(0,0,0,0.5);
+    margin-top: 40px;
+   
+}
+
+.label{
+    color: white;
+}
+input[type="checkbox"]{
+   height: 15px;
+    width: 15px;
+    
+}
+small{
+    font-size: 15px;
+    color: white;
+}
+#pass{
+    font-size: 15px;
+    color: white;
+}
+#Member{
+    font-size: 15px;
+    color: white;
+}
