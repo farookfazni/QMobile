@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.2/css/bootstrap-slider.min.css" integrity="sha256-G3IAYJYIQvZgPksNQDbjvxd/Ca1SfCDFwu2s2lt0oGo=" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/custom.css">
 
-    <title>Contact Us</title>
+    <title>Cart</title>
 </head>
 <body>
     <!-- Navbar -->
@@ -33,11 +33,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html"><span class="fa fa-info fa-lg"></span> About</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact Us</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactus.html"><span class="fas fa-warehouse fa-lg"></span> Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./store.html"><span class="fas fa-warehouse fa-lg"></span> Store</a>
+                        <a class="nav-link active" href="#"><span class="fa fa-address-card fa-lg"></span> Store</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-user fa-lg"></span> My Account</a>
@@ -56,6 +56,7 @@
                     <ul>
                         <li><a href="register.html">Register <i class="fas fa-user-plus fa-dark"></i></a></li>
                         <li><a href="login.html">Log In <i class="fas fa-sign-in-alt fa-dark"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -66,114 +67,16 @@
         <div class="row">
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active">Contact</li>
+                <li class="breadcrumb-item active">Store</li>
             </ol>
         </div>
     </div>
 
+    <div class="container">
+        <div class="row">
 
-    <div class="row container row-content">
-        <!-- Bootstrap card -->
-        <div class="col-12 col-sm-6 offset-3">
-            <div class="card">
-                <h3 class="card-header bg-warning text-secondary" style="text-align:center">Location Information</h3>
-                <div class="card-body">
-                    <dl class="row">
-                        <dd class="col-6">No 121, Templers road,</dd>
-                        <dd class="col-6"><i class="fa fa-phone"></i>: +9411 234 5678</dd>
-                        <dd class="col-6">Mount Lavinia, </dd>
-                        <dd class="col-6"><i class="fa fa-fax"></i>: +9411 234 5678</dd>
-                        <dd class="col-6">Sri Lanka.</dd>
-                        <dd class="col-6"><i class="fa fa-envelope"></i>:<a href="mailto:qmobile@gmail.com">qmobile@gmail.com</a></dd>
-                    </dl>
-                    <dl class="row">
-                        <dd class="col-12">
-                           <div class="w-100">
-                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.489020141167!2d79.87264041459225!3d6.831818195062575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25adf6260db1d%3A0xaa8e852461115e82!2s121%20Templers%20Rd%2C%20Dehiwala-Mount%20Lavinia!5e0!3m2!1sen!2slk!4v1577971571239!5m2!1sen!2slk" frameborder="0" style="border:0;width:100%;" allowfullscreen=""></iframe>
-                            </div>
-                        </dd>
-                    </dl>
-                    <dl class="row">
-                        <!-- Button -->
-                        <div class="btn-group offset-3" role="group">
-                            <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
-                            <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
-                            <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> Email</a>
-                        </div>
-                    </dl>
-                </div>
-            </div>
         </div>
-    </div>
 
-    <!-- Feedback form -->
-    <div class="row container row-content">
-        <div class="col-12 col-sm-10 offset-1">
-            <div class="card">
-                <h3 class="card-header bg-warning text-secondary" style="text-align:center">Send us your Feedback</h3>
-                <div class="card-body">
-                    <dl class="row">
-                        <form class="offset-2">
-                            <div class="form-group row">
-                                <label for="firstname" class="col-md-2 col-form-label">First Name</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
-                                <div class="col-5 col-md-3">
-                                    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
-                                </div>
-                                <div class="col-7 col-md-7">
-                                    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="emailid" class="col-md-2 col-form-label">Email</label>
-                                <div class="col-md-10">
-                                    <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-6 offset-md-2">
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
-                                        <label class="form-check-label" for="approve">
-                                            <strong>May we contact you?</strong>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 offset-md-1">
-                                    <select class="form-control">
-                                        <option>Tel.</option>
-                                        <option>Email</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-                                <div class="col-md-10">
-                                    <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="offset-md-2 col-md-10">
-                                    <!-- Button -->
-                                    <button type="submit" class="btn btn-success">Send Feedback</button>
-                                </div>
-                            </div>
-                        </form>
-                    </dl>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!-- Footer -->
@@ -185,7 +88,7 @@
                     <ul class="list-unstyled">
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./about.html">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
                     </ul>
                 </div>
                 <!-- Address -->
@@ -215,9 +118,9 @@
             </div>
             <!-- Copyright -->
             <div class="row justify-content-center">             
-                <div class="col-auto">
-                    <p>© Copyright 2019 QMobile.Ltd</p>
-                </div>
+                    <div class="col-auto">
+                        <p>© Copyright 2019 QMobile.Ltd</p>
+                    </div>
             </div>
         </div>
     </footer>
